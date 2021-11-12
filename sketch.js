@@ -97,9 +97,9 @@ function draw() {
   textSize(30);
   text("Remaining Arrows : " + numberOfArrows, 200, 100);
 
-  fill("#6d4c41");
+  fill("#FFFF");
   textSize(30);
-  text(`Score:${score}`, width - 200, 50);
+  text(`Score:${score}`, 200, 50);
   textAlign(CENTER, CENTER);
 
   if (numberOfArrows == 0) {
